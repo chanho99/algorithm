@@ -17,11 +17,30 @@
 
 | 항목 | 문제 수 |
 |------|---------|
+| Bronze V | 15 |
+| Bronze IV | 4 |
+| Bronze III | 6 |
+| Bronze II | 8 |
+| Bronze I | 4 |
+| Silver V | 9 |
+| Silver IV | 7 |
+| Silver III | 4 |
+| Silver II | 1 |
 
 ### 🏷️ 태그 분포
 
 | 항목 | 문제 수 |
 |------|---------|
+| implementation | 34 |
+| math | 27 |
+| arithmetic | 13 |
+| string | 12 |
+| sorting | 6 |
+| dp | 5 |
+| bruteforcing | 4 |
+| data_structures | 4 |
+| geometry | 3 |
+| greedy | 2 |
 
 <!-- STATS_END -->
 
