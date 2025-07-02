@@ -1,7 +1,7 @@
 name: Update Algorithm Stats
 
 on:
-  workflow_dispatch:  # 수동 실행만 허용
+  workflow_dispatch:  # 수동 실행 허용
 
 jobs:
   update:
