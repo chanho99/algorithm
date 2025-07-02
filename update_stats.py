@@ -2,7 +2,7 @@ import requests
 from collections import Counter
 import os
 
-USERNAME = "chanho99"
+USERNAME = "chanho0526"
 README_PATH = "README.md"
 
 def fetch_solved_problems(username):
