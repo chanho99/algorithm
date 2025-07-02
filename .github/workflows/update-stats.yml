@@ -1,8 +1,8 @@
 name: Update Algorithm Stats
 
 on:
-  workflow_dispatch:
-  
+  workflow_dispatch  # 수동 실행
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -19,7 +19,7 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
 
-      - name: Run script
+      - name: Run update script
         run: python update_stats.py
 
       - name: Commit and push if changed
