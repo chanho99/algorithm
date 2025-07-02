@@ -9,8 +9,6 @@
 - 언어: Python, C
 <br><br>
 
-### 작업 계획
-- 난이도 분포 (matplotlib 활용)
 <!-- STATS_START -->
 
 ### 📊 난이도 분포
@@ -43,6 +41,7 @@
 | greedy | 2 |
 
 <!-- STATS_END -->
+<br><br>
 
-- 태그 분포 (matplotlib 활용)
+### 작업 계획
 - 태그 별 풀이 전략
