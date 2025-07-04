@@ -50,6 +50,10 @@
 <!-- STATS_END -->
 <br>
 
+### 연습 추가 예정
+https://www.slideshare.net/slideshow/kucc-2022-4/251739276
+<br><br>
+
 ## python 정리
 <br><br>
 
