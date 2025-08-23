@@ -70,18 +70,13 @@ https://www.slideshare.net/slideshow/kucc-2022-4/251739276
 - DFS (Depth-First Search)
   - 재귀 DFS
     ```python
-    def dfs(x, y):
-      visited[x][y] = True
-
-      dx = [-1, 1, 0, 0]
-      dy = [0, 0, -1, 1]
-
-      for i in range(4):
-        nx = x + dx[i]
-        ny = y + dy[i]
-
-        if (조건):
-          dfs(nx, ny)
+    def dfs(node):
+      visited[node] = True
+    
+      for next_node in graph[node]:
+        if not visited(next_node]:
+          dfs(next_node, visited)
+    
     ```
     <br>
     
@@ -106,6 +101,7 @@ https://www.slideshare.net/slideshow/kucc-2022-4/251739276
           if not visited[next_node]:
             visited[next_node] = True
             stack.append(next_node)
+    ```
 
   <br>
 
@@ -124,3 +120,4 @@ https://www.slideshare.net/slideshow/kucc-2022-4/251739276
           if not visited[next_node]:
             visited[next_node] = True
             queue.append(next_node)
+    ```
