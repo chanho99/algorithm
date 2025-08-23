@@ -92,12 +92,35 @@ https://www.slideshare.net/slideshow/kucc-2022-4/251739276
     import sys
     sys.setrecursionlimit(10**n)  # 재귀 호출의 깊이를 10^n으로 설정
     ```
-    - 너무 큰 값을 설정하면 프로그램이 스택 오버플로우로 인해 비정상 종료될 수 있음
+    - 너무 큰 값을 설정하면 프로그램이 스택 오버플로우로 인해 비정상 종료될 수 있음<br><br>
 
-<br>
+  - 반복문 DFS
+    ```python
+    def dfs_iterative(start):
+      stack = [start]
+      visited[start] = True
 
-  - 반복문 DFS (추후 작성 예정)
+      while stack:
+        node = stack.pop()
+        for next_node in graph[node]:
+          if not visited[next_node]:
+            visited[next_node] = True
+            stack.append(next_node)
 
-- BFS (Breadth-First Search) (추후 작성 예정)
+  <br>
 
-  - 반복문 BFS (추후 작성 예정)
+- BFS (Breadth-First Search)
+  - 반복문 BFS
+    ```python
+    from collections import deque
+
+    def bfs(start):
+      queue = deque([start])
+      visited[start] = True
+
+      while queue:
+        node = queue.popleft()
+        for next_node in graph[node]:
+          if not visited[next_node]:
+            visited[next_node] = True
+            queue.append(next_node)
