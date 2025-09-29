@@ -131,10 +131,15 @@
 - 코테: 빈도 계산, 매핑 문제
 <br><br><br>
 
-### ✅ 입력이 많을 때
+### ✅ 입/출력이 많을 때
 ```python
 import sys
+
+# 입력
 input = sys.stdin.readline
+
+# 출력
+sys.stdout.write("\n".join(result) + "\n")
 ```
 <br>
 
