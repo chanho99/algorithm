@@ -86,4 +86,8 @@ input = sys.stdin.readline
 # 출력
 sys.stdout.write("\n".join(result) + "\n")
 ```
-<br>
+<br><br>
+
+---
+
+[⬅️ Study Home](README.md)
