@@ -9,6 +9,9 @@
 - 언어: Python, C
 <br><br>
 
+### [📚 Study Notes](Study/README.md)
+<br><br>
+
 ### solved.ac
 <a href="https://solved.ac/chanho0526">
   <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=chanho0526">
